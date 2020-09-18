@@ -1,0 +1,152 @@
+button:active, button:focus {
+  outline: none !important;
+}
+
+.сontact {
+  display: flex;
+  justify-content: center;
+  height: 623px;
+  background-image: url(../../images/Rectangle.png);
+  background-position: center;
+  z-index: 0;
+}
+
+.main {
+  width: 1116px;
+  display: flex;
+  align-items: center;
+}
+
+.contactsBlock {
+  width: 50%;
+  flex-direction: column;
+}
+
+.contacts {
+  display: flex;
+}
+
+.сontactData {
+  margin: 20px;
+  display: flex;
+  justify-self: center;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+.text {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  max-width: 445px;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.fieldsBlock {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.header {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 66px;
+  color: #FFFFFF;
+  margin-bottom: 80px;
+}
+
+.nameFieldBlock {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: white;
+  width: 50%;
+}
+
+.mailFieldBlock {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: white;
+  padding-bottom: 70px;
+  width: 100%;
+}
+
+.field {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.example {
+  margin: 15px 0px;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 29px;
+  color: #BDBDBD;
+}
+
+.button {
+  width: 270px;
+  height: 60px;
+  color: #FFFFFF;
+  background: #005FA3;
+  margin-top: 50px;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  border-width: 0;
+}
+
+@media screen and (max-width: 1116px) {
+  .main {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .contactsBlock {
+    width: 100%;
+  }
+  .fieldsBlock {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .mailFieldBlock {
+    padding-bottom: 10%;
+  }
+  .button {
+    margin-top: 10px;
+  }
+  .text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .header {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .contacts {
+    display: flex;
+    flex-direction: column;
+  }
+}

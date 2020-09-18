@@ -1,0 +1,156 @@
+.aboutUs {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    width: 1110px;
+    display: flex;
+    justify-self: start;
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+
+.header1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    line-height: 33px;
+    color: #BDBDBD;
+}
+
+.header2 {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+    color: #333333;
+    margin-top: 40px;
+}
+
+.header3 {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+    color:  #005FA3;
+}
+
+.aboutUsText {
+    margin-top: 60px;
+    max-width: 445px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    height: 255px;
+    margin: 15px;
+    background: #EBEBEB;
+}
+
+.block:hover {
+    background: #005FA3;
+}
+
+.block:hover .number {
+    color: #FFFFFF;
+}
+
+.block:hover .text {
+    color: #FFFFFF;
+}
+
+.block:hover .link {
+    color: #FFFFFF;
+}
+
+.number {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 66px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.text {
+    margin-left: 40px;
+    max-width: 50%;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.link {
+    margin: 40px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #005FA3;
+}
+
+@media screen and (max-width: 1116px) {
+    .main {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .aboutUsBlock {
+        width: 100%;
+    }
+    .blocks {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .header1 {
+        display: flex;
+        justify-content: center;
+    }
+    .header2 {
+        display: flex;
+        justify-content: center;
+    }
+    .aboutUsText {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .aboutUsText {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .header2 {
+        font-size: 36px;
+    }
+    .header3 {
+        font-size: 36px;
+    }
+}

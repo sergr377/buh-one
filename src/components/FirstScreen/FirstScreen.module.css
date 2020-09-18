@@ -1,0 +1,83 @@
+button:active, button:focus {
+    outline: none !important;
+}
+
+.firstScreen {
+    display: flex;
+    justify-content: center;
+    height: 670px;
+    background-image: url(../../images/Rectangle.png);
+    background-position: center;
+    z-index: 0;
+}
+
+.slider {
+    width: 1116px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sliderContent {
+    flex-direction: column;
+}
+
+.header {
+    font-family: Merriweather;
+    max-width: 60%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 66px;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+
+.button {
+    width: 270px;
+    height: 60px;
+    color: #FFFFFF;
+    background: #005FA3;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    border-width: 0;
+}
+
+.navigation {
+    width: 100%;
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.dotsGroupe {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    height: 10px;
+}
+
+@media screen and (max-width: 1116px) {
+    .slider {
+        width: 100%;
+    }
+    .header {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .slider {
+        width: 100%;
+    }
+    .header {
+        font-size: 9vw;
+        max-width: 100%;
+    }
+}

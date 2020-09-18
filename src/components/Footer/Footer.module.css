@@ -1,0 +1,21 @@
+.footer { 
+  display: flex;
+  justify-content: center;
+}
+
+.mainBlock {
+    display: flex;
+    width: 1108px;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.footerText {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
