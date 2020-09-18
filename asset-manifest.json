@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/sergr377/buh-one/static/css/main.a2a9c715.chunk.css",
+    "main.js": "/sergr377/buh-one/static/js/main.0d697730.chunk.js",
+    "main.js.map": "/sergr377/buh-one/static/js/main.0d697730.chunk.js.map",
+    "runtime-main.js": "/sergr377/buh-one/static/js/runtime-main.097142a6.js",
+    "runtime-main.js.map": "/sergr377/buh-one/static/js/runtime-main.097142a6.js.map",
+    "static/js/2.abe890dd.chunk.js": "/sergr377/buh-one/static/js/2.abe890dd.chunk.js",
+    "static/js/2.abe890dd.chunk.js.map": "/sergr377/buh-one/static/js/2.abe890dd.chunk.js.map",
+    "index.html": "/sergr377/buh-one/index.html",
+    "precache-manifest.fd2d5725a112c217280c64c285704371.js": "/sergr377/buh-one/precache-manifest.fd2d5725a112c217280c64c285704371.js",
+    "service-worker.js": "/sergr377/buh-one/service-worker.js",
+    "static/css/main.a2a9c715.chunk.css.map": "/sergr377/buh-one/static/css/main.a2a9c715.chunk.css.map",
+    "static/js/2.abe890dd.chunk.js.LICENSE.txt": "/sergr377/buh-one/static/js/2.abe890dd.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/sergr377/buh-one/static/media/Merriweather-Black.bfc959a1.ttf",
+    "static/media/FirstScreen.module.css": "/sergr377/buh-one/static/media/Rectangle.ffb1d33c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.097142a6.js",
+    "static/js/2.abe890dd.chunk.js",
+    "static/css/main.a2a9c715.chunk.css",
+    "static/js/main.0d697730.chunk.js"
+  ]
+}
