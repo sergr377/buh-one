@@ -1,3 +1,21 @@
+ buh-one-app
+=====================
+Тестовое задание с адаптивной верской
+
+### Demo
+[  buh-one-app-app - Live demo](https://sergr377.github.io/buh-one/)
+
+## Installation
+
+1. Clone the repo
+2. ```cd  buh-one ```
+3. npm install
+4. npm start
+5. Open your browser at: ```http://localhost:3000```
+
+(default react readme below this line)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
